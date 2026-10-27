@@ -1,5 +1,13 @@
 # Changelog
 
+## License confirmation — 2026-10-26
+
+- Confirmed MIT for the workbook and Python scripts, and CC BY 4.0 for explanatory documentation, figures, the project mascot, and illustrative examples.
+- Added the root `LICENSE` and `LICENSES/CC-BY-4.0.txt`; updated the license allocation, citation metadata, README, publishing guide, known issues, validation guide, and release record.
+- Recorded `licensing_confirmed: true`. The package remains a reviewed prerelease while formal native Excel acceptance and publication-metadata review are pending.
+
+No workbook content or formulas were changed.
+
 ## Web-publication preparation — 2026-10-26
 
 Repository-only update before the initial GitHub import. The unpublished package version and functional-review baseline remain unchanged.
