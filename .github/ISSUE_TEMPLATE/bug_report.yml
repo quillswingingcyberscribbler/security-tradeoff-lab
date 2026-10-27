@@ -1,0 +1,37 @@
+name: Workbook or script defect
+description: Report a reproducible formula, input, display or script problem.
+title: "[Bug] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: File version and application
+      description: Include the workbook filename and Excel or other application version.
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Sheet and cell, or script location
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction with synthetic inputs
+      description: Do not attach confidential assessments or real credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result and reasoning
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Observed result
+      description: Say whether this is a saved display, fresh recalculation or independent calculation.
+    validations:
+      required: true
