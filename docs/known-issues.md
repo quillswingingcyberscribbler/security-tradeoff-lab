@@ -26,7 +26,7 @@ The source lacks explicit print areas and page setup on these sheets. The review
 
 ## Remaining release requirements
 
-Native Microsoft Excel open/edit/recalculate/save/reopen acceptance has not been documented, including dropdown entry, whole-table sorting, navigation links and printing. The workbook has been opened and used in Microsoft Excel. The MIT/CC BY 4.0 license allocation is confirmed in [LICENSE-STATUS.md](../LICENSE-STATUS.md). Formal native Excel acceptance and the publication-metadata review keep the package a reviewed prerelease; they are not invented calculation failures.
+Formal native Microsoft Excel acceptance has not been documented, including the complete edit/recalculate/save/close/reopen and interaction checklist. The workbook has been opened and used in Microsoft Excel, and the metadata cleanup save/reopen cycle is complete. The MIT/CC BY 4.0 license allocation and the publication-metadata review are complete. The public copy retains the Public sensitivity label and has been cleaned of document properties and its absolute local path. Formal native Excel acceptance and the secondary print-layout issue keep the package a reviewed prerelease; they are not calculation failures.
 
 ## Interpretation boundaries
 
@@ -40,6 +40,8 @@ See [draft issue text](issues-to-open.md) for the remaining work and comments su
 
 ## PUB-01 — Office sensitivity-label metadata
 
-A follow-up inspection on 26 October 2026 found a Microsoft Information Protection label record in every supplied Office source in this repository. The record contains label/site metadata; its presence alone does not establish confidentiality or unsuitability for publication. The source artifacts remain unchanged.
+## PUB-01 — Office sensitivity-label metadata — resolved
 
-Before public distribution, review the Sensitivity setting and applicable policy in the intended Office applications. Decide deliberately whether release copies retain or remove the label and record the decision in the [publication-metadata record](../validation/publication-metadata.json). If an artifact changes, update its source hash and rerun the package and project-specific checks. Stable readiness also requires the completed [native Excel acceptance record](../validation/native-excel-acceptance.md).
+The publication-metadata review was completed on 27 October 2026. The visible Public classification was deliberately retained. Document properties and the absolute local workbook path were removed in Microsoft Excel, and the `lastModifiedBy` property is empty. The public copy was saved, closed and reopened.
+
+All 14 worksheets, 2,947 formulas and saved cell values match the original source. The complete model checker passes. The current public-copy hash is recorded in [validation/manifest.json](../validation/manifest.json), and the review decision is documented in [validation/publication-metadata.json](../validation/publication-metadata.json). Full native Excel acceptance remains a separate release requirement.
