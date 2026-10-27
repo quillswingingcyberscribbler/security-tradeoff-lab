@@ -6,7 +6,7 @@
 
 Security work consumes scarce resources. This Excel model compares a current activity with its full proposed operating profile, then distinguishes estimated potential, approved forecasts and measured results. Business hours, specialist hours, recurring cash and one-time funding remain separate.
 
-**Status: reviewed prerelease `0.1.0-review.2`, reviewed 23 October 2026.** The supplied **v6.2 resolves all five calculation/workflow blockers identified in the previous review**, within the tested scenarios. No new calculation blocker was found in that scope. Native Microsoft Excel acceptance and final licensing remain outstanding; a secondary print-layout issue is documented. The uploaded workbook bytes are preserved unchanged.
+**Status: reviewed prerelease `0.1.0-review.2`, functional review 23 October 2026; public-copy preparation 27 October 2026.** The supplied **v6.2 resolves all five calculation/workflow blockers identified in the previous review**, within the tested scenarios. No new calculation blocker was found in that scope. The MIT/CC BY 4.0 license allocation is confirmed. The public workbook has been cleaned of document properties and its absolute local path; the Public sensitivity label is retained. All 14 worksheets, 2,947 formulas, and saved cell values match the original source. Formal native Microsoft Excel acceptance and the secondary print-layout issue remain outstanding.
 
 ## Start here
 
