@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "Please cite this project and identify the exact workbook version used. This package is a reviewed prerelease."
 type: software
 title: "Security Tradeoff Lab"
+repository-code: "https://github.com/quillswingingcyberscribbler/security-tradeoff-lab"
 authors:
   - family-names: "Muhlert"
     given-names: "Matthias"
