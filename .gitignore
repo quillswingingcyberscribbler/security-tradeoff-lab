@@ -1,0 +1,19 @@
+# Local working copies and real assessment data
+local/
+local-results/
+private/
+workbooks/local/
+~$*
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+# Generated review outputs
+validation/local-*.json
