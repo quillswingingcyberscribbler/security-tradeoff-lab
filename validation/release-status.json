@@ -7,7 +7,7 @@
   "stable_release_ready": false,
   "scoped_model_checks_passed": true,
   "native_excel_verified": false,
-  "licensing_confirmed": false,
+  "licensing_confirmed": true,
   "workbook_changes_applied": false,
   "source_revision_adopted": true,
   "resolved_issues": [
@@ -27,7 +27,6 @@
   ],
   "pending_release_requirements": [
     "Native Microsoft Excel edit/recalculate/save/reopen and supported interaction acceptance.",
-    "Overall release license confirmation.",
     "Review Microsoft Information Protection label metadata in the supplied Office source before public distribution."
   ],
   "verification_scope": "All 2,947 baseline formulas; 136 in-memory scenarios / 544 cell assertions; 115 independent arithmetic assertions; 10 structural assertions. This is scoped verification, not exhaustive or native Excel acceptance.",
