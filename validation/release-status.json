@@ -8,7 +8,8 @@
   "scoped_model_checks_passed": true,
   "native_excel_verified": false,
   "licensing_confirmed": true,
-  "workbook_changes_applied": false,
+  "workbook_changes_applied": true,
+  "workbook_change_scope": "Publication metadata cleanup only; all worksheets, formulas and saved cell values match the original source.",
   "source_revision_adopted": true,
   "resolved_issues": [
     "OC-01",
@@ -26,13 +27,13 @@
     }
   ],
   "pending_release_requirements": [
-    "Native Microsoft Excel edit/recalculate/save/reopen and supported interaction acceptance.",
-    "Review Microsoft Information Protection label metadata in the supplied Office source before public distribution."
+  "Native Microsoft Excel edit/recalculate/save/reopen and supported interaction acceptance."
+],
   ],
   "verification_scope": "All 2,947 baseline formulas; 136 in-memory scenarios / 544 cell assertions; 115 independent arithmetic assertions; 10 structural assertions. This is scoped verification, not exhaustive or native Excel acceptance.",
   "repository_preparation_date": "2026-10-26",
   "native_excel_evidence": "validation/native-excel-acceptance.md",
   "licensing_evidence": "LICENSE-STATUS.md",
-  "publication_metadata_reviewed": false,
+  "publication_metadata_reviewed": true,
   "publication_metadata_evidence": "validation/publication-metadata.json"
 }
