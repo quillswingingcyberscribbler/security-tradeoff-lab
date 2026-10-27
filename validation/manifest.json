@@ -1,13 +1,17 @@
 {
   "package_version": "0.1.0-review.2",
-  "review_date": "2026-10-23",
+  "review_date": "2026-10-27",
   "files": [
     {
       "path": "workbooks/Opportunity-Cost-Security-Model-v6.2.xlsx",
       "source_filename": "Opportunity-Cost-Security-Model-v6.2(1).xlsx",
-      "sha256": "11710936fd8634e748df8b7cf48bbb2bc2515e0eb7065e5631490bb3aea360d7",
-      "size_bytes": 153272,
-      "content_change": "none; original uploaded bytes retained under a portable repository filename"
+      "public_copy_filename": "Opportunity-Cost-Security-Model-v6.2.xlsx",
+      "sha256": "58b3ed5c637dabf3ca7301966ac3701d12f1af2f07f86c24bc99f67687533fbb",
+      "size_bytes": 159057,
+      "previous_source_sha256": "11710936fd8634e748df8b7cf48bbb2bc2515e0eb7065e5631490bb3aea360d7",
+      "content_change": "Publication metadata cleanup in Microsoft Excel: document properties and absolute workbook path removed; Public sensitivity label retained. All 14 sheets, 2947 formulas, and saved cell values match the original source. Printer settings were added by Excel.",
+      "verification_date": "2026-10-27",
+      "verification": "136 scenarios / 544 output assertions, 115 independent arithmetic assertions and 10 structural assertions passed; 2947 saved formula results match the original source."
     }
   ]
 }
