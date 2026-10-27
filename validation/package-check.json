@@ -6,13 +6,13 @@
   "files_checked": {
     "ooxml": 1,
     "markdown": 16,
-    "local_links": 54,
+    "local_links": 55,
     "manifest_hashes": 1
   },
   "artifacts": [
     {
       "path": "workbooks/Opportunity-Cost-Security-Model-v6.2.xlsx",
-      "xml_parts": 41,
+      "xml_parts": 47,
       "formula_cells": 2947,
       "missing_or_empty_numeric_caches": 0,
       "cached_blank_strings": 1214,
