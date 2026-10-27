@@ -26,7 +26,7 @@ The source lacks explicit print areas and page setup on these sheets. The review
 
 ## Remaining release requirements
 
-Native Microsoft Excel open/edit/recalculate/save/reopen acceptance has not been performed, including dropdown entry, whole-table sorting, navigation links and printing. The overall reuse license also remains unconfirmed. These keep the package a reviewed prerelease; they are not invented calculation failures.
+Native Microsoft Excel open/edit/recalculate/save/reopen acceptance has not been documented, including dropdown entry, whole-table sorting, navigation links and printing. The workbook has been opened and used in Microsoft Excel. The MIT/CC BY 4.0 license allocation is confirmed in [LICENSE-STATUS.md](../LICENSE-STATUS.md). Formal native Excel acceptance and the publication-metadata review keep the package a reviewed prerelease; they are not invented calculation failures.
 
 ## Interpretation boundaries
 
