@@ -1,0 +1,20 @@
+name: Usability improvement
+description: Suggest a concrete improvement to the user workflow.
+title: "[UX] "
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: What are you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: friction
+    attributes:
+      label: Where does the current workflow make that difficult?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior

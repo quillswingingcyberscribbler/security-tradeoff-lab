@@ -1,0 +1,23 @@
+name: Methodology or assumption
+description: Discuss a decision rule, model assumption or evidence requirement.
+title: "[Method] "
+body:
+  - type: textarea
+    id: rule
+    attributes:
+      label: Current rule or assumption
+      description: Identify the relevant sheet, cell or documentation section.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change and why it matters
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence, counterexample and expected tradeoffs
+    validations:
+      required: true
