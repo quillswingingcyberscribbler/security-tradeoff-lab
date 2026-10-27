@@ -2,6 +2,8 @@
 
 Review date: **23 October 2026**. Package: **`0.1.0-review.2`**. Reviewed upload: `Opportunity-Cost-Security-Model-v6.2(1).xlsx`, packaged unchanged as `workbooks/Opportunity-Cost-Security-Model-v6.2.xlsx`.
 
+No new calculation blocker was found in this scoped review. The project remains a **reviewed prerelease** because formal native Microsoft Excel acceptance and publication-metadata review are not recorded. The MIT/CC BY 4.0 license allocation was confirmed on 26 October 2026. The workbook has been opened and used in Microsoft Excel, but the complete acceptance cycle has not been documented. A secondary print-layout issue remains: the interactive entry flow is much clearer, but the Start export needs deliberate page setup.
+
 ## Outcome
 
 **All five blockers from the v6.1 review are resolved in the tested v6.2 workflows.** Readiness is populated and actionable; input tables use stable keys; incomplete profiles cannot enter planning; Examples are isolated; measured records require period and evidence; and overlap exclusions follow the same eligibility as the credited resources. The earlier open question about manual review is also resolved: positive challenge clearance and a complete positive human decision are now required.
