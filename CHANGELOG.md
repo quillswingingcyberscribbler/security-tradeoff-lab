@@ -1,5 +1,14 @@
 # Changelog
 
+## Public-copy metadata cleanup — 2026-10-27
+
+- Retained the visible Public sensitivity label and removed document properties and the absolute local workbook path in Microsoft Excel. `lastModifiedBy` is empty.
+- Replaced the public workbook with the cleaned copy. New SHA-256: `58b3ed5c637dabf3ca7301966ac3701d12f1af2f07f86c24bc99f67687533fbb`; size: 159,057 bytes.
+- Verified that all 14 worksheets, 2,947 formulas and saved cell values match the original source. The complete model checker passes: 136 scenarios / 544 output assertions, 115 arithmetic assertions and 10 structural assertions.
+- Updated the source manifest, publication-metadata record, release status, scenario evidence, README, publishing guide, known issues, validation guide, review and issue drafts.
+
+The original source baseline remains preserved separately. Formal native Excel acceptance and the secondary print-layout issue remain open.
+
 ## License confirmation — 2026-10-26
 
 - Confirmed MIT for the workbook and Python scripts, and CC BY 4.0 for explanatory documentation, figures, the project mascot, and illustrative examples.
