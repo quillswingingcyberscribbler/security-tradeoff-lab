@@ -100,9 +100,7 @@ This is a secondary publication issue, not a calculation blocker. Use the intera
 
 ## Release status and provenance
 
-The workbook is packaged under a portable name; the [manifest](../validation/manifest.json) records the exact uploaded name, byte size and SHA-256. The package does not modify the spreadsheet. The old workbook is no longer the current file under `workbooks/`; the [prior review](history/0.1.0-review.1.md) and earlier results remain archived for traceability.
-
-The [release record](../validation/release-status.json) marks the five original issues resolved, the scoped model checks passed and no known calculation blockers in this review. It retains the outstanding native Excel and licensing requirements. The [validation guide](validation.md) provides commands and exact evidence files.
+No new calculation blocker was found in this scoped review. The project remains a **reviewed prerelease** because formal native Microsoft Excel acceptance is not recorded and a secondary print-layout issue remains. The MIT/CC BY 4.0 license allocation was confirmed on 26 October 2026. The publication-metadata review was completed on 27 October 2026: the Public sensitivity label was retained, while document properties and the absolute local path were removed. All 14 worksheets, 2,947 formulas and saved cell values match the original source. The interactive entry flow is much clearer, but the Start export still needs deliberate page setup.
 
 ## Publication preparation addendum — 26 October 2026
 
