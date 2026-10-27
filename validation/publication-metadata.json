@@ -1,21 +1,31 @@
 {
   "schema_version": 1,
   "prepared_date": "2026-10-26",
-  "status": "review-required",
-  "source_artifacts_modified": false,
-  "scope": "Publication-metadata inventory. This is not a confidentiality determination or a native Office metadata-removal operation.",
-  "finding": "Every source Office file in this repository contains a Microsoft Information Protection label record.",
-  "confidentiality_inference": "The presence of label metadata alone does not establish that the content is confidential.",
+  "review_completed_date": "2026-10-27",
+  "status": "reviewed",
+  "source_artifacts_modified": true,
+  "scope": "Publication-metadata review and preparation of a public release copy in Microsoft Excel.",
+  "finding": "The source workbook contains a Microsoft Information Protection label record. Its visible classification is Public.",
+  "decision": "Retain the Public sensitivity label. Remove document properties and the absolute workbook path from the public release copy.",
   "label_and_site_identifiers_reproduced": false,
   "files": [
     "workbooks/Opportunity-Cost-Security-Model-v6.2.xlsx"
   ],
   "author_contact_details_present": false,
-  "required_action": "Review the Sensitivity setting and applicable organizational policy in the intended Office applications. Decide deliberately whether public release copies retain or remove the label. If any source artifact changes, update its manifest hash and rerun validation.",
+  "current_public_copy": {
+    "sha256": "58b3ed5c637dabf3ca7301966ac3701d12f1af2f07f86c24bc99f67687533fbb",
+    "size_bytes": 159057,
+    "previous_source_sha256": "11710936fd8634e748df8b7cf48bbb2bc2515e0eb7065e5631490bb3aea360d7",
+    "worksheets_unchanged": 14,
+    "formulas_unchanged": 2947,
+    "saved_cell_values_unchanged": true,
+    "model_checks_passed": "136 scenarios / 544 output assertions, 115 arithmetic assertions and 10 structural assertions"
+  },
   "completion": {
-    "reviewed_by": null,
-    "review_date": null,
-    "decision": null,
-    "evidence_notes": null
-  }
+    "reviewed_by": "Matthias Muhlert",
+    "review_date": "2026-10-27",
+    "evidence_notes": "Microsoft Excel Document Inspector removed document properties and the absolute workbook path. The lastModifiedBy property is empty. The Public sensitivity label was deliberately retained. The public copy was saved, closed and reopened. Formulas and saved cell values match the original source; the complete model checker passes. Technical label/site identifiers are not reproduced in this record."
+  },
+  "native_excel_metadata_cycle_completed": true,
+  "full_native_excel_acceptance_completed": false
 }
