@@ -38,9 +38,7 @@ GitHub supports up to 100 files in one browser upload. Its browser uploader does
 
 ## 5. Complete the publication decisions
 
-Choose the overall reuse license and complete the publication-metadata review. The scoped calculation checks pass; native Excel acceptance and print-layout work remain before a stable release.
-
-Every supplied Office source contains a Microsoft Information Protection label record. Its presence alone does not establish confidentiality. Review the Sensitivity setting and applicable policy in the intended Office applications. If you create cleaned public copies, preserve the originals separately, update the source hashes, and rerun the repository checks. Record the decision in [validation/publication-metadata.json](validation/publication-metadata.json) and change `publication_metadata_reviewed` in [validation/release-status.json](validation/release-status.json) only after that review.
+The MIT/CC BY 4.0 license allocation is confirmed in [LICENSE-STATUS.md](LICENSE-STATUS.md). Complete the publication-metadata review. The scoped calculation checks pass; native Excel acceptance and print-layout work remain before a stable release.
 
 ## 6. Change visibility when ready
 
@@ -63,7 +61,7 @@ GitHub also creates source ZIP and tar.gz archives automatically. The attached f
 
 ## 8. Before any stable release
 
-Resolve the applicable functional blockers, complete [native Excel acceptance](validation/native-excel-acceptance.md), confirm licensing, and finish the publication-metadata review. Update `validation/release-status.json`, its evidence paths, the source manifest, citation/version metadata, and change log to describe the same artifact set.
+Resolve the applicable functional blockers, complete [native Excel acceptance](validation/native-excel-acceptance.md), and finish the publication-metadata review. Keep the confirmed allocation in [LICENSE-STATUS.md](LICENSE-STATUS.md) consistent with the released artifacts. Update `validation/release-status.json`, its evidence paths, the source manifest, citation/version metadata, and change log to describe the same artifact set.
 
 You can run the explicit release declaration check without leaving the browser. Open **Actions**, then **Repository checks**, then **Run workflow**, and enable `require_stable_release`. It intentionally fails while blockers or required acceptance evidence remain. A manually requested green gate confirms the recorded declarations and evidence-file presence; the underlying evidence still needs human review.
 
