@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "scope": "Read-only package, cached-result, link and integrity checks. No native Excel recalculation or behavioural certification.",
+  "errors": 0,
+  "warnings": 0,
+  "files_checked": {
+    "ooxml": 1,
+    "markdown": 16,
+    "local_links": 54,
+    "manifest_hashes": 1
+  },
+  "artifacts": [
+    {
+      "path": "workbooks/Opportunity-Cost-Security-Model-v6.2.xlsx",
+      "xml_parts": 41,
+      "formula_cells": 2947,
+      "missing_or_empty_numeric_caches": 0,
+      "cached_blank_strings": 1214,
+      "cached_error_cells": 0,
+      "broken_formula_references": 0,
+      "external_hyperlinks": 0,
+      "macros": false,
+      "external_workbook_links": false
+    }
+  ],
+  "issues": []
+}

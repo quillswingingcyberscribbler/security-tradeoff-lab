@@ -1,0 +1,13 @@
+{
+  "suggested_name": "security-tradeoff-lab",
+  "description": "Compare security-control changes through employee time, specialist capacity, cash and evidence.",
+  "topics": [
+    "security-economics",
+    "opportunity-cost",
+    "decision-support",
+    "cybersecurity",
+    "excel"
+  ],
+  "initial_visibility": "private",
+  "has_issues": true
+}

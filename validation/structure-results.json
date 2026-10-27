@@ -1,0 +1,115 @@
+{
+  "review_date": "2026-10-23",
+  "source_sha256": "11710936fd8634e748df8b7cf48bbb2bc2515e0eb7065e5631490bb3aea360d7",
+  "sheet_count": 14,
+  "formula_cells": 2947,
+  "excel_tables": 8,
+  "data_validation_rules": 26,
+  "hidden_sheets": 0,
+  "protected_sheets": 0,
+  "cached_error_cells": 0,
+  "macros": false,
+  "external_workbook_links": false,
+  "data_connections": false,
+  "comment_parts": 0,
+  "sheets": [
+    {
+      "name": "Start",
+      "formula_cells": 35,
+      "data_validation_rules": 0,
+      "state": "visible",
+      "protected": false
+    },
+    {
+      "name": "Case View",
+      "formula_cells": 34,
+      "data_validation_rules": 1,
+      "state": "visible",
+      "protected": false
+    },
+    {
+      "name": "Cases",
+      "formula_cells": 1,
+      "data_validation_rules": 2,
+      "state": "visible",
+      "protected": false
+    },
+    {
+      "name": "Current",
+      "formula_cells": 251,
+      "data_validation_rules": 2,
+      "state": "visible",
+      "protected": false
+    },
+    {
+      "name": "Proposed",
+      "formula_cells": 251,
+      "data_validation_rules": 2,
+      "state": "visible",
+      "protected": false
+    },
+    {
+      "name": "Review & Decision",
+      "formula_cells": 51,
+      "data_validation_rules": 6,
+      "state": "visible",
+      "protected": false
+    },
+    {
+      "name": "Challenge Review",
+      "formula_cells": 51,
+      "data_validation_rules": 2,
+      "state": "visible",
+      "protected": false
+    },
+    {
+      "name": "Actuals",
+      "formula_cells": 51,
+      "data_validation_rules": 3,
+      "state": "visible",
+      "protected": false
+    },
+    {
+      "name": "Reinvestment",
+      "formula_cells": 116,
+      "data_validation_rules": 4,
+      "state": "visible",
+      "protected": false
+    },
+    {
+      "name": "Classification",
+      "formula_cells": 51,
+      "data_validation_rules": 1,
+      "state": "visible",
+      "protected": false
+    },
+    {
+      "name": "Settings",
+      "formula_cells": 2,
+      "data_validation_rules": 3,
+      "state": "visible",
+      "protected": false
+    },
+    {
+      "name": "Guide",
+      "formula_cells": 1,
+      "data_validation_rules": 0,
+      "state": "visible",
+      "protected": false
+    },
+    {
+      "name": "Sources",
+      "formula_cells": 1,
+      "data_validation_rules": 0,
+      "state": "visible",
+      "protected": false
+    },
+    {
+      "name": "Checks",
+      "formula_cells": 2051,
+      "data_validation_rules": 0,
+      "state": "visible",
+      "protected": false
+    }
+  ]
+}

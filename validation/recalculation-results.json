@@ -1,0 +1,13 @@
+{
+  "formula_cells": 2947,
+  "matching_values": 2947,
+  "differences": [],
+  "recalculated_errors": 0,
+  "review_date": "2026-10-23",
+  "source_sha256": "11710936fd8634e748df8b7cf48bbb2bc2515e0eb7065e5631490bb3aea360d7",
+  "application": "LibreOfficeDev 26.8.0.0.alpha0",
+  "application_build": "2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+  "method": "Headless open/recalculate/export of a disposable copy; source bytes unchanged.",
+  "native_microsoft_excel": false,
+  "recalculated_copy_included": false
+}

@@ -1,0 +1,39 @@
+{
+  "package_status": "reviewed-prerelease",
+  "package_version": "0.1.0-review.2",
+  "review_date": "2026-10-23",
+  "source_versions": "Opportunity-Cost Security Model v6.2",
+  "previous_source_version": "v6.1",
+  "stable_release_ready": false,
+  "scoped_model_checks_passed": true,
+  "native_excel_verified": false,
+  "licensing_confirmed": false,
+  "workbook_changes_applied": false,
+  "source_revision_adopted": true,
+  "resolved_issues": [
+    "OC-01",
+    "OC-02",
+    "OC-03",
+    "OC-04",
+    "OC-05"
+  ],
+  "blockers": [],
+  "known_calculation_blockers": [],
+  "secondary_issues": [
+    {
+      "id": "OC-06",
+      "summary": "Start/Case View/Guide need explicit print setup; interactive XLSX is the primary artifact."
+    }
+  ],
+  "pending_release_requirements": [
+    "Native Microsoft Excel edit/recalculate/save/reopen and supported interaction acceptance.",
+    "Overall release license confirmation.",
+    "Review Microsoft Information Protection label metadata in the supplied Office source before public distribution."
+  ],
+  "verification_scope": "All 2,947 baseline formulas; 136 in-memory scenarios / 544 cell assertions; 115 independent arithmetic assertions; 10 structural assertions. This is scoped verification, not exhaustive or native Excel acceptance.",
+  "repository_preparation_date": "2026-10-26",
+  "native_excel_evidence": "validation/native-excel-acceptance.md",
+  "licensing_evidence": "LICENSE-STATUS.md",
+  "publication_metadata_reviewed": false,
+  "publication_metadata_evidence": "validation/publication-metadata.json"
+}

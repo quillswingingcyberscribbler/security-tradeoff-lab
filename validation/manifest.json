@@ -1,0 +1,13 @@
+{
+  "package_version": "0.1.0-review.2",
+  "review_date": "2026-10-23",
+  "files": [
+    {
+      "path": "workbooks/Opportunity-Cost-Security-Model-v6.2.xlsx",
+      "source_filename": "Opportunity-Cost-Security-Model-v6.2(1).xlsx",
+      "sha256": "11710936fd8634e748df8b7cf48bbb2bc2515e0eb7065e5631490bb3aea360d7",
+      "size_bytes": 153272,
+      "content_change": "none; original uploaded bytes retained under a portable repository filename"
+    }
+  ]
+}

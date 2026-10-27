@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-10-26",
+  "status": "review-required",
+  "source_artifacts_modified": false,
+  "scope": "Publication-metadata inventory. This is not a confidentiality determination or a native Office metadata-removal operation.",
+  "finding": "Every source Office file in this repository contains a Microsoft Information Protection label record.",
+  "confidentiality_inference": "The presence of label metadata alone does not establish that the content is confidential.",
+  "label_and_site_identifiers_reproduced": false,
+  "files": [
+    "workbooks/Opportunity-Cost-Security-Model-v6.2.xlsx"
+  ],
+  "author_contact_details_present": false,
+  "required_action": "Review the Sensitivity setting and applicable organizational policy in the intended Office applications. Decide deliberately whether public release copies retain or remove the label. If any source artifact changes, update its manifest hash and rerun validation.",
+  "completion": {
+    "reviewed_by": null,
+    "review_date": null,
+    "decision": null,
+    "evidence_notes": null
+  }
+}

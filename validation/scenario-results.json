@@ -1,0 +1,5651 @@
+{
+  "review_date": "2026-10-23",
+  "source_sha256": "11710936fd8634e748df8b7cf48bbb2bc2515e0eb7065e5631490bb3aea360d7",
+  "engine": "Purpose-limited read-only source-formula interpreter; not native Microsoft Excel",
+  "baseline": {
+    "comparison": "recalculated workbook",
+    "matched": 2947,
+    "mismatches": [],
+    "evaluation_errors": []
+  },
+  "structural_checks": [
+    {
+      "check": "Cases has each prepared ID exactly once",
+      "pass": true
+    },
+    {
+      "check": "Current has each prepared ID exactly once",
+      "pass": true
+    },
+    {
+      "check": "Proposed has each prepared ID exactly once",
+      "pass": true
+    },
+    {
+      "check": "Review & Decision has each prepared ID exactly once",
+      "pass": true
+    },
+    {
+      "check": "Challenge Review has each prepared ID exactly once",
+      "pass": true
+    },
+    {
+      "check": "Actuals has each prepared ID exactly once",
+      "pass": true
+    },
+    {
+      "check": "Classification has each prepared ID exactly once",
+      "pass": true
+    },
+    {
+      "check": "Checks has each prepared ID exactly once",
+      "pass": true
+    },
+    {
+      "check": "Review & Decision has 50 readiness formulas",
+      "pass": true
+    },
+    {
+      "check": "Checks has 50 readiness formulas",
+      "pass": true
+    }
+  ],
+  "independent_arithmetic": [
+    {
+      "cell": "Checks!N7",
+      "expected": 7333.333333333333,
+      "actual": 7333.333333333333,
+      "pass": true
+    },
+    {
+      "cell": "Checks!O7",
+      "expected": 300,
+      "actual": 300,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Q7",
+      "expected": 150,
+      "actual": 150.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!R7",
+      "expected": 80,
+      "actual": 80.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!W7",
+      "expected": 451250.0,
+      "actual": 451250.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!X7",
+      "expected": 84000,
+      "actual": 84000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!P7",
+      "expected": 7033.333333333333,
+      "actual": 7033.333333333333,
+      "pass": true
+    },
+    {
+      "cell": "Checks!S7",
+      "expected": 70,
+      "actual": 70.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!V7",
+      "expected": -60000,
+      "actual": -60000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Y7",
+      "expected": 367250.0,
+      "actual": 367250.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!N8",
+      "expected": 1733.3333333333333,
+      "actual": 1733.3333333333333,
+      "pass": true
+    },
+    {
+      "cell": "Checks!O8",
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Q8",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!R8",
+      "expected": 10,
+      "actual": 10.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!W8",
+      "expected": 104000.0,
+      "actual": 104000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!X8",
+      "expected": 750,
+      "actual": 750.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!P8",
+      "expected": 1733.3333333333333,
+      "actual": 1733.3333333333333,
+      "pass": true
+    },
+    {
+      "cell": "Checks!S8",
+      "expected": -10,
+      "actual": -10.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!V8",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Y8",
+      "expected": 103250.0,
+      "actual": 103250.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!N9",
+      "expected": 2296.6666666666665,
+      "actual": 2296.6666666666665,
+      "pass": true
+    },
+    {
+      "cell": "Checks!O9",
+      "expected": 400,
+      "actual": 400,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Q9",
+      "expected": 200,
+      "actual": 200.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!R9",
+      "expected": 60,
+      "actual": 60.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!W9",
+      "expected": 152800.0,
+      "actual": 152800.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!X9",
+      "expected": 28500,
+      "actual": 28500.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!P9",
+      "expected": 1896.6666666666665,
+      "actual": 1896.6666666666665,
+      "pass": true
+    },
+    {
+      "cell": "Checks!S9",
+      "expected": 140,
+      "actual": 140.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!V9",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Y9",
+      "expected": 124300.0,
+      "actual": 124300.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!N10",
+      "expected": 800,
+      "actual": 800,
+      "pass": true
+    },
+    {
+      "cell": "Checks!O10",
+      "expected": 100,
+      "actual": 100,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Q10",
+      "expected": 160,
+      "actual": 160.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!R10",
+      "expected": 40,
+      "actual": 40.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!W10",
+      "expected": 84000,
+      "actual": 84000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!X10",
+      "expected": 27000,
+      "actual": 27000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!P10",
+      "expected": 700,
+      "actual": 700.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!S10",
+      "expected": 120,
+      "actual": 120.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!V10",
+      "expected": -15000,
+      "actual": -15000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Y10",
+      "expected": 57000,
+      "actual": 57000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!N11",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!O11",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Q11",
+      "expected": 800,
+      "actual": 800.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!R11",
+      "expected": 170,
+      "actual": 170.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!W11",
+      "expected": 60000,
+      "actual": 60000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!X11",
+      "expected": 22750,
+      "actual": 22750.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!P11",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!S11",
+      "expected": 630,
+      "actual": 630.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!V11",
+      "expected": -10000,
+      "actual": -10000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Y11",
+      "expected": 37250,
+      "actual": 37250.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!N12",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!O12",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Q12",
+      "expected": 1400,
+      "actual": 1400.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!R12",
+      "expected": 1100,
+      "actual": 1100.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!W12",
+      "expected": 105000,
+      "actual": 105000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!X12",
+      "expected": 82500,
+      "actual": 82500.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!P12",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!S12",
+      "expected": 300,
+      "actual": 300.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!V12",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Y12",
+      "expected": 22500,
+      "actual": 22500.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!N13",
+      "expected": 3300,
+      "actual": 3300,
+      "pass": true
+    },
+    {
+      "cell": "Checks!O13",
+      "expected": 800,
+      "actual": 800,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Q13",
+      "expected": 100,
+      "actual": 100.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!R13",
+      "expected": 60,
+      "actual": 60.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!W13",
+      "expected": 205500,
+      "actual": 205500.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!X13",
+      "expected": 64500,
+      "actual": 64500.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!P13",
+      "expected": 2500,
+      "actual": 2500.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!S13",
+      "expected": 40,
+      "actual": 40.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!V13",
+      "expected": -12000,
+      "actual": -12000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Y13",
+      "expected": 141000,
+      "actual": 141000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!N14",
+      "expected": 600,
+      "actual": 600,
+      "pass": true
+    },
+    {
+      "cell": "Checks!O14",
+      "expected": 150,
+      "actual": 150,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Q14",
+      "expected": 120,
+      "actual": 120.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!R14",
+      "expected": 40,
+      "actual": 40.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!W14",
+      "expected": 63000,
+      "actual": 63000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!X14",
+      "expected": 16500,
+      "actual": 16500.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!P14",
+      "expected": 450,
+      "actual": 450.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!S14",
+      "expected": 80,
+      "actual": 80.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!V14",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Y14",
+      "expected": 46500,
+      "actual": 46500.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!N15",
+      "expected": 1100,
+      "actual": 1100,
+      "pass": true
+    },
+    {
+      "cell": "Checks!O15",
+      "expected": 1100,
+      "actual": 1100,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Q15",
+      "expected": 80,
+      "actual": 80.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!R15",
+      "expected": 80,
+      "actual": 80.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!W15",
+      "expected": 76000,
+      "actual": 76000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!X15",
+      "expected": 76000,
+      "actual": 76000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!P15",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!S15",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!V15",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Y15",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!N16",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!O16",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Q16",
+      "expected": 300,
+      "actual": 300.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!R16",
+      "expected": 300,
+      "actual": 300.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!W16",
+      "expected": 112500,
+      "actual": 112500.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!X16",
+      "expected": 112500,
+      "actual": 112500.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!P16",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!S16",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!V16",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Y16",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!N17",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!O17",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Q17",
+      "expected": 120,
+      "actual": 120.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!R17",
+      "expected": 120,
+      "actual": 120.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!W17",
+      "expected": 9000,
+      "actual": 9000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!X17",
+      "expected": 9000,
+      "actual": 9000.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!P17",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!S17",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!V17",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Checks!Y17",
+      "expected": 0,
+      "actual": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "Start!H39",
+      "expected": 1423050.0,
+      "actual": 1423050.0,
+      "pass": true
+    },
+    {
+      "cell": "Start!H40",
+      "expected": 14313.333333333332,
+      "actual": 14313.333333333332,
+      "pass": true
+    },
+    {
+      "cell": "Start!H41",
+      "expected": 1370.0,
+      "actual": 1370.0,
+      "pass": true
+    },
+    {
+      "cell": "Start!H42",
+      "expected": -97000.0,
+      "actual": -97000.0,
+      "pass": true
+    },
+    {
+      "cell": "Start!H43",
+      "expected": 899050.0,
+      "actual": 899050.0,
+      "pass": true
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "Baseline examples never supply the Live plan",
+      "topic": "baseline",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Start",
+          "cell": "A9",
+          "expected": 0,
+          "actual": 0,
+          "matches": true
+        },
+        {
+          "sheet": "Start",
+          "cell": "E9",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Start",
+          "cell": "I9",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Start",
+          "cell": "H39",
+          "expected": 1423050,
+          "actual": 1423050.0,
+          "matches": true
+        },
+        {
+          "sheet": "Start",
+          "cell": "H43",
+          "expected": 899050,
+          "actual": 899050.0,
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "E11",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Complete approved forecast supplies usable hours and cash",
+      "topic": "positive approval",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "K18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 400,
+          "actual": 400.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 45,
+          "actual": 45.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 5000,
+          "actual": 5000.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AD18",
+          "expected": 3000,
+          "actual": 3000,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "Y18",
+          "expected": 57500,
+          "actual": 57500.0,
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "M18",
+          "expected": "Approved forecast eligible",
+          "actual": "Approved forecast eligible",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Modeled Live potential is visible but not allocatable",
+      "topic": "stage gate",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Start",
+          "cell": "E31",
+          "expected": 800,
+          "actual": 800.0,
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "M18",
+          "expected": "Modeled only — not allocatable",
+          "actual": "Modeled only — not allocatable",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Approved Example forecast cannot enter planning",
+      "topic": "OC-04 example isolation",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "K18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "M18",
+          "expected": "Example only — never in live planning",
+          "actual": "Example only — never in live planning",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Implemented Example actuals cannot enter planning",
+      "topic": "OC-04 example isolation",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Current missing B blocks planning",
+      "topic": "OC-03 missing inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Current missing C blocks planning",
+      "topic": "OC-03 missing inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Current missing D blocks planning",
+      "topic": "OC-03 missing inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Current missing E blocks planning",
+      "topic": "OC-03 missing inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Current missing F blocks planning",
+      "topic": "OC-03 missing inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Proposed missing B blocks planning",
+      "topic": "OC-03 missing inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Proposed missing C blocks planning",
+      "topic": "OC-03 missing inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Proposed missing D blocks planning",
+      "topic": "OC-03 missing inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Proposed missing E blocks planning",
+      "topic": "OC-03 missing inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Proposed missing F blocks planning",
+      "topic": "OC-03 missing inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Proposed missing G blocks planning",
+      "topic": "OC-03 missing inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Current confirmed zero C is accepted",
+      "topic": "OC-03 zero inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "K18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Current confirmed zero D is accepted",
+      "topic": "OC-03 zero inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "K18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Current confirmed zero E is accepted",
+      "topic": "OC-03 zero inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "K18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Proposed confirmed zero C is accepted",
+      "topic": "OC-03 zero inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "K18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Proposed confirmed zero D is accepted",
+      "topic": "OC-03 zero inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "K18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Proposed confirmed zero E is accepted",
+      "topic": "OC-03 zero inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "K18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Proposed confirmed zero F is accepted",
+      "topic": "OC-03 zero inputs",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "K18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid Current!C18 is excluded",
+      "topic": "numeric / label validation",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid Current!D18 is excluded",
+      "topic": "numeric / label validation",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid Current!B18 is excluded",
+      "topic": "numeric / label validation",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid Proposed!F18 is excluded",
+      "topic": "numeric / label validation",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid Settings!B9 is excluded",
+      "topic": "numeric / label validation",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid Settings!B10 is excluded",
+      "topic": "numeric / label validation",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid Settings!B11 is excluded",
+      "topic": "numeric / label validation",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Human decision Open cannot supply planning",
+      "topic": "positive approval",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Human decision Pilot approved cannot supply planning",
+      "topic": "positive approval",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Human decision Rejected cannot supply planning",
+      "topic": "positive approval",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Human decision Unknown cannot supply planning",
+      "topic": "positive approval",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Local confidence 'Hypothesis' cannot supply planning",
+      "topic": "positive approval",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Local confidence 'Plausible' cannot supply planning",
+      "topic": "positive approval",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Local confidence None cannot supply planning",
+      "topic": "positive approval",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing approval field D18 holds planning",
+      "topic": "positive approval",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing approval field F18 holds planning",
+      "topic": "positive approval",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing approval field G18 holds planning",
+      "topic": "positive approval",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing approval field I18 holds planning",
+      "topic": "positive approval",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing approval field J18 holds planning",
+      "topic": "positive approval",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing approval field K18 holds planning",
+      "topic": "positive approval",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Whitespace approval field D18 is missing",
+      "topic": "input completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Whitespace approval field F18 is missing",
+      "topic": "input completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Accepted protection reduction needs a reference",
+      "topic": "protection gate",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Documented accepted protection reduction can be approved",
+      "topic": "protection gate",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "K18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Not-assessed protection remains excluded",
+      "topic": "protection gate",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Challenge field D18 prevents clearance",
+      "topic": "challenge gate",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Challenge field E18 prevents clearance",
+      "topic": "challenge gate",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Challenge field B18 prevents clearance",
+      "topic": "challenge gate",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Challenge field C18 prevents clearance",
+      "topic": "challenge gate",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Challenge field J18 prevents clearance",
+      "topic": "challenge gate",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Prepared C012 blocker follows its key",
+      "topic": "OC-02 spare-row key",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "G18",
+          "expected": "Blocked",
+          "actual": "Blocked",
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Prepared C013 blocker follows its key",
+      "topic": "OC-02 spare-row key",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "G19",
+          "expected": "Blocked",
+          "actual": "Blocked",
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "M19",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Prepared C014 blocker follows its key",
+      "topic": "OC-02 spare-row key",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "G20",
+          "expected": "Blocked",
+          "actual": "Blocked",
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "M20",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Prepared C015 blocker follows its key",
+      "topic": "OC-02 spare-row key",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "G21",
+          "expected": "Blocked",
+          "actual": "Blocked",
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "M21",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Prepared C030 blocker follows its key",
+      "topic": "OC-02 spare-row key",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "G36",
+          "expected": "Blocked",
+          "actual": "Blocked",
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "M36",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Prepared C050 blocker follows its key",
+      "topic": "OC-02 spare-row key",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "G56",
+          "expected": "Blocked",
+          "actual": "Blocked",
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "M56",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Duplicate ID in Cases invalidates case",
+      "topic": "key integrity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AG18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "M18",
+          "expected": "Fix duplicate / missing case ID",
+          "actual": "Fix duplicate / missing case ID",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Duplicate ID in Current invalidates case",
+      "topic": "key integrity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AG18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "M18",
+          "expected": "Fix duplicate / missing case ID",
+          "actual": "Fix duplicate / missing case ID",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Duplicate ID in Proposed invalidates case",
+      "topic": "key integrity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AG18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "M18",
+          "expected": "Fix duplicate / missing case ID",
+          "actual": "Fix duplicate / missing case ID",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Duplicate ID in Review & Decision invalidates case",
+      "topic": "key integrity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AG18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "M18",
+          "expected": "Fix duplicate / missing case ID",
+          "actual": "Fix duplicate / missing case ID",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Duplicate ID in Challenge Review invalidates case",
+      "topic": "key integrity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AG18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "M18",
+          "expected": "Fix duplicate / missing case ID",
+          "actual": "Fix duplicate / missing case ID",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Duplicate ID in Actuals invalidates case",
+      "topic": "key integrity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AG18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "M18",
+          "expected": "Fix duplicate / missing case ID",
+          "actual": "Fix duplicate / missing case ID",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Duplicate ID in Classification invalidates case",
+      "topic": "key integrity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AG18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "M18",
+          "expected": "Fix duplicate / missing case ID",
+          "actual": "Fix duplicate / missing case ID",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing review ID invalidates case",
+      "topic": "key integrity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AG18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Current record moved with its ID still joins correctly",
+      "topic": "key-based joins",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "AG18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "K18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 400,
+          "actual": 400.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 45,
+          "actual": 45.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Independent input-table reordering retains approval by key",
+      "topic": "key-based joins",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "AG18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "G18",
+          "expected": "Clear",
+          "actual": "Clear",
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "K18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 400,
+          "actual": 400.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Blocker in reordered challenge record still blocks its case",
+      "topic": "key-based joins",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "G18",
+          "expected": "Blocked",
+          "actual": "Blocked",
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid or unavailable Review & Decision!G18 holds planning",
+      "topic": "dates / settings",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid or unavailable Review & Decision!I18 holds planning",
+      "topic": "dates / settings",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid or unavailable Review & Decision!I18 holds planning",
+      "topic": "dates / settings",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid or unavailable Challenge Review!C18 holds planning",
+      "topic": "dates / settings",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid or unavailable Settings!B7 holds planning",
+      "topic": "dates / settings",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid or unavailable Settings!B7 holds planning",
+      "topic": "dates / settings",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid or unavailable Settings!B8 holds planning",
+      "topic": "dates / settings",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid usable share J18 holds planning",
+      "topic": "usable capacity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid usable share K18 holds planning",
+      "topic": "usable capacity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid usable share J18 holds planning",
+      "topic": "usable capacity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Zero usable shares do not turn time into cash",
+      "topic": "usable capacity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 5000,
+          "actual": 5000.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Extra forecast work counts fully despite zero usable shares",
+      "topic": "usable capacity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": -200,
+          "actual": -200.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": -50,
+          "actual": -50.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Retain with changed annual profile is incomplete",
+      "topic": "proposal semantics",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "F18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Unchanged Retain releases no resource",
+      "topic": "proposal semantics",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AH18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "P18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "Y18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Specialist execution counts as specialist capacity",
+      "topic": "resource classification",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "N18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "Q18",
+          "expected": 1100,
+          "actual": 1100.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "P18",
+          "expected": -200,
+          "actual": -200.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "S18",
+          "expected": 1060,
+          "actual": 1060.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Realized without actuals is excluded and visibly flagged",
+      "topic": "OC-01 readiness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AF18",
+          "expected": "Missing measured evidence",
+          "actual": "Missing measured evidence",
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "M18",
+          "expected": "Add measurements, period and evidence",
+          "actual": "Add measurements, period and evidence",
+          "matches": true
+        },
+        {
+          "sheet": "Start",
+          "cell": "A12",
+          "expected": "Action required: one or more live Realized cases lack complete measurement evidence.",
+          "actual": "Action required: one or more live Realized cases lack complete measurement evidence.",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Annualized actuals supply only entered annual equivalents",
+      "topic": "OC-04 actuals",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "K18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 300,
+          "actual": 300.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 30,
+          "actual": 30.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 2000,
+          "actual": 2000,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AD18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AO18",
+          "expected": 37000,
+          "actual": 37000.0,
+          "matches": true
+        },
+        {
+          "sheet": "Actuals",
+          "cell": "M18",
+          "expected": "Ready",
+          "actual": "Ready",
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "M18",
+          "expected": "Measured result eligible",
+          "actual": "Measured result eligible",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing Actuals B blocks realized planning",
+      "topic": "OC-04 actuals completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "I18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing Actuals C blocks realized planning",
+      "topic": "OC-04 actuals completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "I18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing Actuals D blocks realized planning",
+      "topic": "OC-04 actuals completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "I18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing Actuals E blocks realized planning",
+      "topic": "OC-04 actuals completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "I18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing Actuals F blocks realized planning",
+      "topic": "OC-04 actuals completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "I18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing Actuals G blocks realized planning",
+      "topic": "OC-04 actuals completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "I18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing Actuals H blocks realized planning",
+      "topic": "OC-04 actuals completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "I18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing Actuals I blocks realized planning",
+      "topic": "OC-04 actuals completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "I18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing Actuals J blocks realized planning",
+      "topic": "OC-04 actuals completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "I18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing Actuals K blocks realized planning",
+      "topic": "OC-04 actuals completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "I18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing Actuals L blocks realized planning",
+      "topic": "OC-04 actuals completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "I18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Whitespace Actuals I18 is incomplete",
+      "topic": "OC-04 actuals provenance",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Whitespace Actuals J18 is incomplete",
+      "topic": "OC-04 actuals provenance",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Whitespace Actuals L18 is incomplete",
+      "topic": "OC-04 actuals provenance",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Short period cannot be labelled full-year actual",
+      "topic": "measurement period",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Complete full-year actual qualifies",
+      "topic": "measurement period",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 300,
+          "actual": 300.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid measured chronology C18 is excluded",
+      "topic": "measurement period",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid measured chronology D18 is excluded",
+      "topic": "measurement period",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid measured chronology K18 is excluded",
+      "topic": "measurement period",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid measured chronology K18 is excluded",
+      "topic": "measurement period",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Period ending before effective date cannot qualify",
+      "topic": "measurement period",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "I18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Realized requires Implemented, not merely Approved",
+      "topic": "measurement authorization",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Confirmed zero actuals remain a measured result",
+      "topic": "actual zero",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 0,
+          "actual": 0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": 0,
+          "actual": 0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": 0,
+          "actual": 0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Measured extra work and cash use count fully",
+      "topic": "signed actuals",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": -120,
+          "actual": -120,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AB18",
+          "expected": -20,
+          "actual": -20,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AC18",
+          "expected": -2000,
+          "actual": -2000,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Forecast rates do not rewrite stored actuals",
+      "topic": "measurement independence",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AA18",
+          "expected": 300,
+          "actual": 300.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "AO18",
+          "expected": 37000,
+          "actual": 37000.0,
+          "matches": true
+        },
+        {
+          "sheet": "Actuals",
+          "cell": "H18",
+          "expected": 35000,
+          "actual": 35000,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Modeled case cannot remove linked demand",
+      "topic": "OC-05 overlap",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Count as extra demand",
+          "actual": "Count as extra demand",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "G11",
+          "expected": 100,
+          "actual": 100.0,
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "E11",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Forecast and overlap use the same inclusion rule",
+      "topic": "OC-05 overlap",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Included in eligible case",
+          "actual": "Included in eligible case",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "G11",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "E11",
+          "expected": 400,
+          "actual": 400.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Measured-only mode excludes forecast and restores demand",
+      "topic": "OC-05 overlap",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "K18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Count as extra demand",
+          "actual": "Count as extra demand",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "G11",
+          "expected": 100,
+          "actual": 100.0,
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "E11",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Measured-only mode includes actuals and excludes documented overlap",
+      "topic": "OC-05 overlap",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "L18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Included in eligible case",
+          "actual": "Included in eligible case",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "E11",
+          "expected": 300,
+          "actual": 300.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Blocked case restores independent demand",
+      "topic": "OC-05 overlap",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Count as extra demand",
+          "actual": "Count as extra demand",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "G11",
+          "expected": 100,
+          "actual": 100.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Rejected case restores independent demand",
+      "topic": "OC-05 overlap",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Count as extra demand",
+          "actual": "Count as extra demand",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Example case cannot exclude linked Live demand",
+      "topic": "OC-05 overlap",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Checks",
+          "cell": "M18",
+          "expected": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Count as extra demand",
+          "actual": "Count as extra demand",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Explicit extra demand is included beside eligible case",
+      "topic": "reinvestment demand",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Count as extra demand",
+          "actual": "Count as extra demand",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "G11",
+          "expected": 100,
+          "actual": 100.0,
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "I11",
+          "expected": 300,
+          "actual": 300.0,
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "I14",
+          "expected": 5000,
+          "actual": 5000.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Unknown overlap key counts demand conservatively",
+      "topic": "reinvestment demand",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Count as extra demand",
+          "actual": "Count as extra demand",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "G11",
+          "expected": 100,
+          "actual": 100.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Duplicate overlap claims count both and request resolution",
+      "topic": "reinvestment demand",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Duplicate overlap — counted",
+          "actual": "Duplicate overlap — counted",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "L37",
+          "expected": "Duplicate overlap — counted",
+          "actual": "Duplicate overlap — counted",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "G11",
+          "expected": 200,
+          "actual": 200.0,
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "A16",
+          "expected": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "actual": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Incomplete approved demand C stops coverage statement",
+      "topic": "demand completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Complete approved demand",
+          "actual": "Complete approved demand",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "A16",
+          "expected": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "actual": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Incomplete approved demand E stops coverage statement",
+      "topic": "demand completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Complete approved demand",
+          "actual": "Complete approved demand",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "A16",
+          "expected": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "actual": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Incomplete approved demand F stops coverage statement",
+      "topic": "demand completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Complete approved demand",
+          "actual": "Complete approved demand",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "A16",
+          "expected": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "actual": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Incomplete approved demand G stops coverage statement",
+      "topic": "demand completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Complete approved demand",
+          "actual": "Complete approved demand",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "A16",
+          "expected": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "actual": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Incomplete approved demand H stops coverage statement",
+      "topic": "demand completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Complete approved demand",
+          "actual": "Complete approved demand",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "A16",
+          "expected": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "actual": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Incomplete approved demand J stops coverage statement",
+      "topic": "demand completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Complete approved demand",
+          "actual": "Complete approved demand",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "A16",
+          "expected": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "actual": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Incomplete approved demand K stops coverage statement",
+      "topic": "demand completeness",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Complete approved demand",
+          "actual": "Complete approved demand",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "A16",
+          "expected": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "actual": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Negative demand cannot become a release",
+      "topic": "demand validation",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Complete approved demand",
+          "actual": "Complete approved demand",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Duplicate demand ID prevents clean coverage statement",
+      "topic": "demand identity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Reinvestment",
+          "cell": "L36",
+          "expected": "Complete approved demand",
+          "actual": "Complete approved demand",
+          "matches": true
+        },
+        {
+          "sheet": "Reinvestment",
+          "cell": "A16",
+          "expected": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "actual": "Resolve incomplete demands or duplicate overlap claims before relying on coverage.",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing visible readiness output triggers integrity warning",
+      "topic": "OC-01 readiness integrity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Start",
+          "cell": "A12",
+          "expected": "Integrity warning: missing readiness output or duplicate/missing key. Do not rely on planning totals.",
+          "actual": "Integrity warning: missing readiness output or duplicate/missing key. Do not rely on planning totals.",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing ledger readiness triggers integrity warning",
+      "topic": "OC-01 readiness integrity",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Start",
+          "cell": "A12",
+          "expected": "Integrity warning: missing readiness output or duplicate/missing key. Do not rely on planning totals.",
+          "actual": "Integrity warning: missing readiness output or duplicate/missing key. Do not rely on planning totals.",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Workload helper uses explicit per-person frequency",
+      "topic": "workload helper",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Settings",
+          "cell": "B22",
+          "expected": 100,
+          "actual": 100.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Workload helper rejects impossible follow-up share",
+      "topic": "workload helper",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Settings",
+          "cell": "B22",
+          "expected": "",
+          "actual": "",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Workload helper intentionally does not change stored case hours",
+      "topic": "workload helper",
+      "kind": "regression / boundary check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Settings",
+          "cell": "B22",
+          "expected": 14666.666666666666,
+          "actual": 14666.666666666666,
+          "matches": true
+        },
+        {
+          "sheet": "Current",
+          "cell": "C7",
+          "expected": 7333.333333333333,
+          "actual": 7333.333333333333,
+          "matches": true
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "scenario_count": 136,
+    "scenario_assertions": 544,
+    "arithmetic_assertions": 115,
+    "structural_assertions": 10,
+    "all_observed_results_reproduced": true,
+    "success": true
+  }
+}

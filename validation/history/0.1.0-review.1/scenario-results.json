@@ -1,0 +1,396 @@
+{
+  "engine": "Purpose-limited read-only source-formula interpreter; not native Microsoft Excel",
+  "baseline": {
+    "matched": 636,
+    "mismatches": [],
+    "evaluation_errors": []
+  },
+  "scenarios": [
+    {
+      "name": "Baseline examples are illustrative, no live cases",
+      "kind": "behavior check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Start",
+          "cell": "C24",
+          "expected_observed_behavior": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Start",
+          "cell": "C37",
+          "expected_observed_behavior": 1393050,
+          "actual": 1393050.0,
+          "matches": true
+        },
+        {
+          "sheet": "Start",
+          "cell": "C39",
+          "expected_observed_behavior": 738250,
+          "actual": 738250.0,
+          "matches": true
+        },
+        {
+          "sheet": "Results & Reinvestment",
+          "cell": "C16",
+          "expected_observed_behavior": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Headcount driver recalculates workload",
+      "kind": "behavior check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Cases",
+          "cell": "U6",
+          "expected_observed_behavior": 14666.666666666666,
+          "actual": 14666.666666666666,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Annual hours mode ignores event headcount",
+      "kind": "behavior check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Cases",
+          "cell": "U10",
+          "expected_observed_behavior": 100,
+          "actual": 100,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Unknown alternative licence blocks eligibility",
+      "kind": "behavior check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Review & Decision",
+          "cell": "R6",
+          "expected_observed_behavior": "unknown",
+          "actual": "unknown",
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "AB6",
+          "expected_observed_behavior": "no",
+          "actual": "no",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Confirmed zero alternative licence remains valid",
+      "kind": "behavior check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Review & Decision",
+          "cell": "R6",
+          "expected_observed_behavior": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "AB6",
+          "expected_observed_behavior": "yes",
+          "actual": "yes",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Explicit challenge blocker excludes the case",
+      "kind": "behavior check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Review & Decision",
+          "cell": "AA6",
+          "expected_observed_behavior": "blocked",
+          "actual": "blocked",
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "AB6",
+          "expected_observed_behavior": "no",
+          "actual": "no",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Rejected case stays out of planning",
+      "kind": "behavior check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Review & Decision",
+          "cell": "AB6",
+          "expected_observed_behavior": "no",
+          "actual": "no",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Hypothesis cannot be relabelled validated",
+      "kind": "behavior check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Review & Decision",
+          "cell": "AB6",
+          "expected_observed_behavior": "no",
+          "actual": "no",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing team cost input still planning eligible",
+      "kind": "known-defect reproduction",
+      "finding": "OC-03: Blank current team hours are costed as zero downstream.",
+      "results": [
+        {
+          "sheet": "Cases",
+          "cell": "W6",
+          "expected_observed_behavior": "",
+          "actual": "",
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "R6",
+          "expected_observed_behavior": 1,
+          "actual": 1.0,
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "AB6",
+          "expected_observed_behavior": "yes",
+          "actual": "yes",
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "T6",
+          "expected_observed_behavior": -80,
+          "actual": -80.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing current cash input still planning eligible",
+      "kind": "known-defect reproduction",
+      "finding": "OC-03: Blank current recurring spend is costed as zero downstream.",
+      "results": [
+        {
+          "sheet": "Cases",
+          "cell": "W6",
+          "expected_observed_behavior": "",
+          "actual": "",
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "AB6",
+          "expected_observed_behavior": "yes",
+          "actual": "yes",
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "U6",
+          "expected_observed_behavior": -60000,
+          "actual": -60000.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Missing current person group still planning eligible",
+      "kind": "known-defect reproduction",
+      "finding": "OC-03: Incomplete resource classification does not stop planning.",
+      "results": [
+        {
+          "sheet": "Review & Decision",
+          "cell": "J6",
+          "expected_observed_behavior": "",
+          "actual": "",
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "AB6",
+          "expected_observed_behavior": "yes",
+          "actual": "yes",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Realized without measurements: exclusion works, warning does not",
+      "kind": "known-defect reproduction",
+      "finding": "OC-01: Readiness AC6:AC20 is empty, so Start C19 is falsely reassuring.",
+      "results": [
+        {
+          "sheet": "Review & Decision",
+          "cell": "AB6",
+          "expected_observed_behavior": "no",
+          "actual": "no",
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "AC6",
+          "expected_observed_behavior": null,
+          "actual": null,
+          "matches": true
+        },
+        {
+          "sheet": "Start",
+          "cell": "C19",
+          "expected_observed_behavior": "OK - realized entries are measurement-backed.",
+          "actual": "OK - realized entries are measurement-backed.",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Realized numbers without evidence or period accepted",
+      "kind": "known-defect reproduction",
+      "finding": "OC-04: Numeric actuals pass without measurement period/evidence and Example data enters planning.",
+      "results": [
+        {
+          "sheet": "Review & Decision",
+          "cell": "AB6",
+          "expected_observed_behavior": "yes",
+          "actual": "yes",
+          "matches": true
+        },
+        {
+          "sheet": "Results & Reinvestment",
+          "cell": "C16",
+          "expected_observed_behavior": 100,
+          "actual": 100.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Example promoted to validated enters planning",
+      "kind": "known-defect reproduction",
+      "finding": "OC-04: Planning sums do not filter Case type Live.",
+      "results": [
+        {
+          "sheet": "Start",
+          "cell": "C24",
+          "expected_observed_behavior": 0,
+          "actual": 0.0,
+          "matches": true
+        },
+        {
+          "sheet": "Results & Reinvestment",
+          "cell": "C16",
+          "expected_observed_behavior": 7033.333333333333,
+          "actual": 7033.333333333333,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Modeled case excludes reinvestment demand",
+      "kind": "known-defect reproduction",
+      "finding": "OC-05: Modeled/example replacement excludes demand before any validated/realized release is credited.",
+      "results": [
+        {
+          "sheet": "Results & Reinvestment",
+          "cell": "J5",
+          "expected_observed_behavior": "no - priced in case 6",
+          "actual": "no - priced in case 6",
+          "matches": true
+        },
+        {
+          "sheet": "Results & Reinvestment",
+          "cell": "C16",
+          "expected_observed_behavior": 0,
+          "actual": 0.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Zero scope remainder means full removal",
+      "kind": "behavior check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Review & Decision",
+          "cell": "R6",
+          "expected_observed_behavior": 1,
+          "actual": 1.0,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Blank scope remainder means unknown",
+      "kind": "behavior check",
+      "finding": null,
+      "results": [
+        {
+          "sheet": "Review & Decision",
+          "cell": "R6",
+          "expected_observed_behavior": "unknown",
+          "actual": "unknown",
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "AB6",
+          "expected_observed_behavior": "no",
+          "actual": "no",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Spare row 18 blocker lost because review key is overwritten",
+      "kind": "known-defect reproduction",
+      "finding": "OC-02: Challenge Review B36 is a status message, not the row-18 case ID.",
+      "results": [
+        {
+          "sheet": "Review & Decision",
+          "cell": "AA18",
+          "expected_observed_behavior": "unchecked",
+          "actual": "unchecked",
+          "matches": true
+        },
+        {
+          "sheet": "Review & Decision",
+          "cell": "AB18",
+          "expected_observed_behavior": "yes",
+          "actual": "yes",
+          "matches": true
+        }
+      ]
+    }
+  ],
+  "all_observed_results_reproduced": true
+}

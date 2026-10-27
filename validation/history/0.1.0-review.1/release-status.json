@@ -1,0 +1,15 @@
+{
+  "package_status": "reviewed-prerelease",
+  "package_version": "0.1.0-review.1",
+  "source_versions": "Opportunity-Cost Security Model v6.1",
+  "stable_release_ready": false,
+  "native_excel_verified": false,
+  "licensing_confirmed": false,
+  "workbook_changes_applied": false,
+  "blockers": [
+    "The readiness column is empty and cannot generate its promised warnings.",
+    "A challenge-review message overwrites the spare-row case key at B36.",
+    "Current-input completeness and measured-evidence gates are incomplete.",
+    "Examples and premature overlap exclusions can affect operational planning."
+  ]
+}
