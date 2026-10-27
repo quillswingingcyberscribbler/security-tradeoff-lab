@@ -45,9 +45,9 @@ Define the intended report sheets and print areas. Set orientation, margins, sca
 
 Open a disposable v6.2 copy in the intended Excel build. Exercise the first Live case workflow, dropdowns, missing-versus-zero inputs, positive approvals, period/evidence boundaries, full-table sorting, duplicate IDs, planning modes and overlap transitions. Recalculate, save, close and reopen; check values, retained formulas, tables, links and validation. Check the print work above. Record the environment and results separately from the Python interpreter and LibreOffice records.
 
-## Confirm release licensing and metadata
+## Record confirmed license allocation
 
-Confirm the intended reuse license and publication metadata before representing this package as licensed for public reuse. Retain original source provenance and applicable external attributions. Update `LICENSE-STATUS.md` and the release record when the decision is made. The supplied workbook does not embed an overall license grant.
+The author confirmed the MIT/CC BY 4.0 allocation on 26 October 2026. The workbook and Python scripts use MIT; explanatory documentation, figures, the project mascot, and illustrative examples use CC BY 4.0. The root `LICENSE`, `LICENSES/CC-BY-4.0.txt`, `LICENSE-STATUS.md`, `CITATION.cff`, `README.md`, and the release record have been updated accordingly. No separate licensing issue needs to be opened. Original source provenance and applicable external attributions must be retained.
 
 ## Review Office publication metadata
 
