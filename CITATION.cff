@@ -9,6 +9,9 @@ authors:
     orcid: "https://orcid.org/0009-0006-3640-7779"
 version: "0.1.0-review.2"
 date-released: "2026-10-23"
+license:
+  - MIT
+  - CC-BY-4.0
 abstract: "Compare security-control changes through employee time, specialist capacity, cash and evidence."
 keywords:
   - "security-economics"
