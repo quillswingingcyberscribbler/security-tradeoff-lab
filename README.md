@@ -58,7 +58,9 @@ Use [PUBLISHING.md](PUBLISHING.md) to import a new repository or update an exist
 
 ## Licensing and contribution
 
-No overall reuse license was found in the supplied workbook. See [LICENSE-STATUS.md](LICENSE-STATUS.md) for the remaining author decision. [CONTRIBUTING.md](CONTRIBUTING.md) explains how to report a reproducible issue, and [CITATION.cff](CITATION.cff) identifies this package version. Keep completed organizational assessments outside the public repository.
+The workbook and Python scripts are licensed under the MIT License. Explanatory documentation, figures, the project mascot, and illustrative examples are licensed under CC BY 4.0. See [LICENSE-STATUS.md](LICENSE-STATUS.md) for the allocation and the applicable license files. Third-party works retain their respective terms.
+
+[CONTRIBUTING.md](CONTRIBUTING.md) explains how to report a reproducible issue, and [CITATION.cff](CITATION.cff) identifies this package version. Keep completed organizational assessments outside the public repository.
 
 ## Prepare publication
 
