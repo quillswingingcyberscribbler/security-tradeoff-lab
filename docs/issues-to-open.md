@@ -49,10 +49,10 @@ Open a disposable v6.2 copy in the intended Excel build. Exercise the first Live
 
 The author confirmed the MIT/CC BY 4.0 allocation on 26 October 2026. The workbook and Python scripts use MIT; explanatory documentation, figures, the project mascot, and illustrative examples use CC BY 4.0. The root `LICENSE`, `LICENSES/CC-BY-4.0.txt`, `LICENSE-STATUS.md`, `CITATION.cff`, `README.md`, and the release record have been updated accordingly. No separate licensing issue needs to be opened. Original source provenance and applicable external attributions must be retained.
 
-## Review Office publication metadata
+## Office publication metadata — completed
 
-**Problem:** Every supplied Office source contains a Microsoft Information Protection label record. The earlier package review did not give this portfolio-wide metadata finding a separate publication task.
+The publication-metadata review was completed on 27 October 2026. The visible Public classification was deliberately retained. Document properties and the absolute local workbook path were removed in Microsoft Excel, and `lastModifiedBy` is empty. The public copy was saved, closed and reopened.
 
-**Change:** Review the Sensitivity setting and applicable policy in the intended Office applications. Decide whether public release copies retain or remove the label. Preserve original sources separately and update hashes and validation evidence if any artifact changes. Do not copy label or site identifiers into public explanatory documents.
+All 14 worksheets, 2,947 formulas and saved cell values match the original source. The complete model checker passes. The current public-copy hash is recorded in `validation/manifest.json`, and the decision is documented in `validation/publication-metadata.json`. No separate publication-metadata issue needs to be opened. Full native Excel acceptance remains a separate task.
 
 **Acceptance:** `validation/publication-metadata.json` records the reviewer, date, decision, and evidence. `validation/release-status.json` changes `publication_metadata_reviewed` only after that decision. Any changed release artifact has a reviewed hash and passing repository checks.
